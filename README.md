@@ -1,0 +1,1 @@
+This repo contains the code for the Formula 1 data visualization website I'm building. I'm using Django, and the website will make use of the FastF1 API, as well as Plotly Dash, so I can generate interactive visualizations for users to explore Formula 1 data.
