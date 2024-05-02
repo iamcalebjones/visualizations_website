@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Formula 1 Data Visualized
+{% endblock title %}
+
+{% block content %}
+    <h1>
+        About this Page
+    </h1>
+    <p>
+    {{ textdata.about_this_page }}           
+    </p>
+    <h1>
+        Here's How to get Started
+    </h1>
+    <p>
+        {{ textdata.getting_started }}
+    </p>
+{% endblock content %}

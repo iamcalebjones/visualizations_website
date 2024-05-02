@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Visualizations
+{% endblock title %}
+
+{% block content %}
+    <h1>These plots are available</h1>
+    <p>(each item in the list will actually be a link to that plot, maybe with a small image showing an example, <br>
+        hover show those images when mousing over)</p>
+    <ul>
+        {% for plot in textdata %}
+            <li>{{ plot }}</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
