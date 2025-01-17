@@ -5,7 +5,7 @@ how_to = {
 
                  Analysts like Sam Collins have access to some great tools for analysis, including a handful of great charts.
                  This website will allow you to recreate those charts, and explore the graphics interactively, for any Formula 1 Session available through fastf1.""",
-                 "getting_started": """Follow the Choose Session link above to select your session of interest, and submit your search. The data will load on the backend, and that data will be available to explore with any of the data visualizations listed."""
+                 "getting_started": """Follow the Choose Session link above to select your session of interest, and submit your search. The data will load on the backend, and that data will be available to explore with any of the data visualizations listed. New visualizations are being developed and will be added as they are completed."""
                  },
     "plot_list": ['Position Changes During a Race',
                   'Overlying Speed Traces',
